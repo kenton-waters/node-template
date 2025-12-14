@@ -28,3 +28,12 @@ npm start
 ```
 
 This runs the "start" script defined in packages.json.
+
+
+## Linting:
+
+Run ESLint like so:
+
+```
+npx eslint ./src/
+```
