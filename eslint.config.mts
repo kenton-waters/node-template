@@ -14,7 +14,10 @@ export default defineConfig(
   {
     languageOptions: {
       parserOptions: {
-        projectService: true,
+        project: [
+          "tsconfig.json",
+          "tsconfig.eslint.json",
+        ]
       },
     },
   },
