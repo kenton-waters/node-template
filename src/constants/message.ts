@@ -1,0 +1,1 @@
+export const message:string = 'Hello, Node.js with TypeScript!';

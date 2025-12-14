@@ -15,6 +15,10 @@ Run the project like so:
 node dist/index.js
 ```
 
+```
+npx tsc && node dist/index.js
+```
+
 ### For development:
 
 Skip the build step and run like so:
