@@ -14,7 +14,10 @@
     "url": "git+https://github.com/kenton-waters/node-template.git"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*": [
+      "eslint --cache --fix --no-warn-ignored",
+      "prettier --cache --write --ignore-unknown"
+    ]
   },
   "keywords": [],
   "author": "",

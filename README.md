@@ -35,7 +35,7 @@ This runs the "start" script defined in packages.json.
 Run ESLint to fix linting errors like so:
 
 ```
-npx eslint --fix --cache .
+npx eslint --cache --fix .
 ```
 
 List linting errors without fixing:
@@ -49,17 +49,17 @@ npx eslint --cache .
 Format all files with Prettier:
 
 ```
-npx prettier . --write
+npx prettier --cache --write .
 ```
 
 Format a particular file:
 
 ```
-npx prettier --write src/app.ts
+npx prettier --cache --write src/app.ts
 ```
 
 Check formatting without fixing (good for CI):
 
 ```
-npx prettier . --check
+npx prettier --cache --check .
 ```
