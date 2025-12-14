@@ -12,11 +12,11 @@ npx tsc
 Run the project like so:
 
 ```
-node dist/index.js
+node dist/app.js
 ```
 
 ```
-npx tsc && node dist/index.js
+npx tsc && node dist/app.js
 ```
 
 ### For development:
