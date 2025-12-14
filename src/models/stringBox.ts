@@ -1,3 +1,3 @@
 export interface StringBox {
-    content: string,
+  content: string;
 }

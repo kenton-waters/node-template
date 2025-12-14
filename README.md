@@ -1,4 +1,5 @@
 # node-template
+
 A template for TypeScript projects with Node.js.
 
 ## Run the project
@@ -28,7 +29,6 @@ npm start
 ```
 
 This runs the "start" script defined in packages.json.
-
 
 ## Linting:
 

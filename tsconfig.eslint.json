@@ -1,10 +1,8 @@
 {
   "compilerOptions": {
     "noEmit": true,
-    "strict": true,
+    "strict": true
   },
   "extends": "./tsconfig.json",
-  "include": [
-    "eslint.config.mts",
-  ]
+  "include": ["eslint.config.mts"]
 }

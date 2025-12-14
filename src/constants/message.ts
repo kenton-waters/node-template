@@ -1,1 +1,1 @@
-export const message = 'Hello, Node.js with TypeScript!';
+export const message = "Hello, Node.js with TypeScript!";
