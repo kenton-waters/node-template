@@ -35,5 +35,5 @@ This runs the "start" script defined in packages.json.
 Run ESLint like so:
 
 ```
-npx eslint ./src/
+npx eslint .
 ```
