@@ -32,10 +32,16 @@ This runs the "start" script defined in packages.json.
 
 ## Linting:
 
-Run ESLint like so:
+Run ESLint to fix linting errors like so:
 
 ```
-npx eslint .
+npx eslint --fix --cache .
+```
+
+List linting errors without fixing:
+
+```
+npx eslint --cache .
 ```
 
 ## Formatting:

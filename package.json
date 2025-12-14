@@ -6,11 +6,15 @@
   "scripts": {
     "start": "tsx src/app.ts",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kenton-waters/node-template.git"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
   },
   "keywords": [],
   "author": "",
@@ -25,7 +29,9 @@
     "@types/node": "^25.0.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
+    "husky": "^9.1.7",
     "jiti": "^2.6.1",
+    "lint-staged": "^16.2.7",
     "prettier": "3.7.4",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3",

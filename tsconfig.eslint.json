@@ -4,5 +4,5 @@
     "strict": true
   },
   "extends": "./tsconfig.json",
-  "include": ["eslint.config.mts"]
+  "include": ["eslint.config.ts"]
 }
