@@ -3,6 +3,7 @@
 import eslint from "@eslint/js";
 import { defineConfig, globalIgnores } from "eslint/config";
 import tseslint from "typescript-eslint";
+import eslintConfigPrettier from "eslint-config-prettier/flat";
 
 export default defineConfig(
   // Ignore TypeScript compilation output:
@@ -18,4 +19,7 @@ export default defineConfig(
       },
     },
   },
+
+  // Disables ESLint rules that conflict with Prettier:
+  eslintConfigPrettier,
 );

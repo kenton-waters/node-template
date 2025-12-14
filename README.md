@@ -37,3 +37,23 @@ Run ESLint like so:
 ```
 npx eslint .
 ```
+
+## Formatting:
+
+Format all files with Prettier:
+
+```
+npx prettier . --write
+```
+
+Format a particular file:
+
+```
+npx prettier --write src/app.ts
+```
+
+Check formatting without fixing (good for CI):
+
+```
+npx prettier . --check
+```
